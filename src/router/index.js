@@ -4,6 +4,8 @@ import LoginPage from '@/components/Auth/LoginPage.vue';
 
 import RegisterPage from '@/components/Auth/RegisterPage.vue'
 
+import ServicePage from '@/components/page/ServicePage.vue'
+
 
 const routes = [
 
@@ -12,13 +14,13 @@ const routes = [
     //     redirect: '/home'
     // },
 
-    // { 
-    //     path:'/home',   
+    { 
+        path:'/services',   
         
-    //     component:HomePage, 
+        component:ServicePage, 
         
-    //     meta: { requiresAuth: true } 
-    // },
+        meta: { requiresAuth: true } 
+    },
 
     { 
         path: '/',
