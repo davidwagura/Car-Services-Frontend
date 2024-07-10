@@ -12,7 +12,7 @@
 
             <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2">
 
-                <img src='../../assets/oil-to-car-engine.jpg' alt="Oil Change" class="w-full h-auto rounded mb-4">
+                <img src='/assets/oil-to-car-engine.jpg' alt="Oil Change" class="w-full h-auto rounded mb-4">
 
                 <h2 class="text-gray-800 text-xl font-semibold mb-2">Oil Change</h2>
 
@@ -24,7 +24,7 @@
 
             <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2">
 
-                <img src='../../assets/wheel-service.webp'  alt="Tire Rotation Service" class="w-full h-auto rounded mb-4">
+                <img src='/assets/wheel-service.webp'  alt="Tire Rotation Service" class="w-full h-auto rounded mb-4">
 
                 <h2 class="text-gray-800 text-xl font-semibold mb-2">Tire Rotation</h2>
 
@@ -36,7 +36,7 @@
 
             <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2">
 
-                <img src='../assets/inspection.jpg' class="w-full h-auto rounded mb-4">
+                <img src='/assets/inspection.jpg' class="w-full h-auto rounded mb-4">
 
                 <h2 class="text-gray-800 text-xl font-semibold mb-2">Brake Inspection</h2>
 
@@ -48,7 +48,7 @@
 
             <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2">
 
-                <img src='../../assets/auto-repair-shop.jpg' class="w-full h-auto rounded mb-4">
+                <img src='/assets/auto-repair-shop.jpg' class="w-full h-auto rounded mb-4">
 
                 <h2 class="text-gray-800 text-xl font-semibold mb-2">Engine Diagnosis</h2>
 
@@ -110,7 +110,7 @@
 
             <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2">
 
-                <img src='../../../assets/wheel-service-webp' alt="Wheel Alignment Service" class="w-full h-auto rounded mb-4">
+                <img src='/assets/wheel-service-webp' alt="Wheel Alignment Service" class="w-full h-auto rounded mb-4">
 
                 <h2 class="text-gray-800 text-xl font-semibold mb-2">Wheel Alignment</h2>
 

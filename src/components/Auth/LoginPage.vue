@@ -12,7 +12,7 @@
 
                 </div>
 
-                <form class="mt-8 space-y-6" >
+                <form @submit="login()" class="mt-8 space-y-6" >
 
                     <div class="space-y-4">
 
@@ -44,6 +44,12 @@
 
                     </div>
 
+                    <div>
+
+                        <p>Don't have an account?  <a lass="font-medium text-indigo-600 hover:text-indigo-500" href="/">Register</a></p>
+
+                    </div>
+
                 </form>
 
             </div>
@@ -53,3 +59,37 @@
     </body>
 
 </template>
+
+<script setup>
+
+    import { ref } from 'vue';
+
+    import axios from 'axios';
+
+    const email = ref('');
+
+    const password = ref('');
+
+    const login = async () => {
+
+        try {
+
+            const response = await axios.post('url', {
+
+            email: email.value,
+
+            password: password.value,
+
+            });
+
+            console.log(response.data);
+
+        } catch (error) {
+
+            console.error(error);
+
+        }
+
+    };
+
+</script>
