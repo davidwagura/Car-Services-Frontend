@@ -12,7 +12,7 @@
 
                 </div>
 
-                <form @submit="login()" class="mt-8 space-y-6" >
+                <form @submit.prevent="login()" class="mt-8 space-y-6" >
 
                     <div class="space-y-4">
 
@@ -66,6 +66,13 @@
 
     import axios from 'axios';
 
+    import { useUserStore } from '@/store/store';
+
+
+    const userIdStore = useUserStore();
+
+    const tokenStore = useUserStore();
+
     const email = ref('');
 
     const password = ref('');
@@ -82,7 +89,9 @@
 
             });
 
-            console.log(response.data);
+            userIdStore.setUserId(response.data.user.id);
+
+            tokenStore.setUserToken(response.data.token);
 
         } catch (error) {
 
