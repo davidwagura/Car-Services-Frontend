@@ -12,7 +12,7 @@
 
                 </div>
 
-                <form class="mt-8 space-y-6">
+                <form @submit.prevent="register()" class="space-y-6">
 
                     <div class="space-y-4">
 
@@ -76,7 +76,44 @@
 
 </template>
 
-<script>
+<script setup>
 
+    import { ref } from 'vue';
+
+    import axios from 'axios';
+
+
+    const name = ref('');
+
+    const email = ref('');
+
+    const password = ref('');
+
+    const carRegistrationNumber = ref('');
+
+    const register = async () => {
+
+        try {
+
+            const response = await axios.post('your_registration_api_url', {
+
+                name: name.value,
+
+                email: email.value,
+
+                password: password.value,
+
+                car_registration_number: carRegistrationNumber.value,
+                
+            });
+
+            console.log(response.data);
+
+        } catch (error) {
+
+            console.error(error);
+            
+        }
+    }
     
 </script>
