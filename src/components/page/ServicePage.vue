@@ -14,7 +14,7 @@
 
         </button>
 
-        <form class="pt-4 mx-auto my-auto mt-6 flex flex-wrap justify-between mb-16">
+        <form @submit.prevent="submitServices()" class="pt-4 mx-auto my-auto mt-6 flex flex-wrap justify-between mb-16">
 
             <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
 
@@ -173,4 +173,40 @@
     </body>
 
 </template>
-  
+
+<script setup>
+    import { ref } from 'vue';
+
+    import axios from 'axios';
+
+    const selectedServices = ref([]);
+
+    const submitServices = async () => {
+
+        try {
+
+            const response = await axios.post('https://your-api-endpoint.com/services', {
+
+            services: selectedServices.value,
+
+            });
+
+            console.log('Successfully submitted:', response.data);
+
+        } catch (error) {
+
+            console.error('Error submitting services:', error);
+
+        }
+
+    };
+
+</script>
+
+
+
+
+
+
+
+
