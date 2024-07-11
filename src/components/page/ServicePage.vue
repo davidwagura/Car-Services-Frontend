@@ -8,8 +8,13 @@
 
         </header>
     
+        <button type="submit" class="relative float-right m-4  px-4 py-2 text-sm font-medium text-white bg-indigo-600 border border-transparent rounded-md group hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
 
-        <form class="max-w-4xl mx-auto my-8 flex flex-wrap justify-between mb-16">
+            Confirm service
+
+        </button>
+
+        <form class="pt-4 mx-auto my-auto mt-6 flex flex-wrap justify-between mb-16">
 
             <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
 
@@ -157,12 +162,6 @@
 
             </div>
     
-            <button type="submit" class="relative flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-indigo-600 border border-transparent rounded-md group hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-
-                Register
-
-            </button>
-
         </form>
   
         <footer class="bg-gray-800 text-white text-center p-4 fixed bottom-0 w-full">
