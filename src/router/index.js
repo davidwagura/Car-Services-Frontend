@@ -6,6 +6,8 @@ import RegisterPage from '@/components/Auth/RegisterPage.vue'
 
 import ServicePage from '@/components/page/ServicePage.vue'
 
+// import { useUserStore } from '@/store/store';
+
 
 const routes = [
 
@@ -49,7 +51,10 @@ const router = createRouter({
 
 });
 
+
 router.beforeEach((to, from, next) => {
+
+    // const tokenStore = useUserStore();
 
     const isAuthenticated = !!localStorage.getItem('token');
 

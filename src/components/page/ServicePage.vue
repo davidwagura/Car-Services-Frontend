@@ -1,18 +1,19 @@
 <template>
 
     <body class="bg-gray-100 font-sans">
-        
+
         <header class="bg-gray-800 text-white p-4 text-center">
 
             <h1 class="text-2xl">Car Service Station</h1>
 
         </header>
+    
 
         <form class="max-w-4xl mx-auto my-8 flex flex-wrap justify-between mb-16">
 
-            <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2">
+            <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
 
-                <img src='/assets/oil-to-car-engine.jpg' alt="Oil Change" class="w-full h-auto rounded mb-4">
+                <img src='../../assets/oil-to-car-engine.jpg' alt="Oil Change" class="w-full h-auto rounded mb-4">
 
                 <h2 class="text-gray-800 text-xl font-semibold mb-2">Oil Change</h2>
 
@@ -21,10 +22,10 @@
                 <input type="checkbox" name="services[]" value="Oil Change">
 
             </div>
+  
+            <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
 
-            <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2">
-
-                <img src='/assets/wheel-service.webp'  alt="Tire Rotation Service" class="w-full h-auto rounded mb-4">
+                <img src='../../assets/wheel-service.webp' alt="Tire Rotation Service" class="w-full h-auto rounded mb-4">
 
                 <h2 class="text-gray-800 text-xl font-semibold mb-2">Tire Rotation</h2>
 
@@ -33,10 +34,11 @@
                 <input type="checkbox" name="services[]" value="Tire Rotation">
 
             </div>
+  
 
-            <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2">
+            <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
 
-                <img src='/assets/inspection.jpg' class="w-full h-auto rounded mb-4">
+                <img src='../../assets/inspection.jpg' class="w-full h-auto rounded mb-4">
 
                 <h2 class="text-gray-800 text-xl font-semibold mb-2">Brake Inspection</h2>
 
@@ -45,10 +47,10 @@
                 <input type="checkbox" name="services[]" value="Brake Inspection">
 
             </div>
+    
+            <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
 
-            <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2">
-
-                <img src='/assets/auto-repair-shop.jpg' class="w-full h-auto rounded mb-4">
+                <img src='../../assets/auto-repair-shop.jpg' class="w-full h-auto rounded mb-4">
 
                 <h2 class="text-gray-800 text-xl font-semibold mb-2">Engine Diagnosis</h2>
 
@@ -57,10 +59,10 @@
                 <input type="checkbox" name="services[]" value="Engine Diagnosis">
 
             </div>
+  
+            <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
 
-            <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2">
-
-                <img src='' class="w-full h-auto rounded mb-4">
+                <img src='../../assets/battery_replacement.webp' class="w-full h-auto rounded mb-4">
 
                 <h2 class="text-gray-800 text-xl font-semibold mb-2">Battery Replacement</h2>
 
@@ -69,10 +71,10 @@
                 <input type="checkbox" name="services[]" value="Battery Replacement">
 
             </div>
+  
+            <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
 
-            <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2">
-
-                <img src='' class="w-full h-auto rounded mb-4">
+                <img src='../../assets/car-wash.webp' class="w-full h-auto rounded mb-4">
 
                 <h2 class="text-gray-800 text-xl font-semibold mb-2">Car Wash</h2>
 
@@ -81,10 +83,10 @@
                 <input type="checkbox" name="services[]" value="Car Wash">
 
             </div>
+  
+            <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
 
-            <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2">
-
-                <img src='' class="w-full h-auto rounded mb-4">
+                <img src='../../assets/ac-service.jpg' class="w-full h-auto rounded mb-4">
 
                 <h2 class="text-gray-800 text-xl font-semibold mb-2">AC Service</h2>
 
@@ -93,12 +95,10 @@
                 <input type="checkbox" name="services[]" value="AC Service">
 
             </div>
+    
+            <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
 
-            <!-- Additional Services -->
-
-            <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2">
-
-                <img src='' alt="Transmission Service" class="w-full h-auto rounded mb-4">
+                <img src='../../assets/transmission-service.webp' alt="Transmission Service" class="w-full h-auto rounded mb-4">
 
                 <h2 class="text-gray-800 text-xl font-semibold mb-2">Transmission Service</h2>
 
@@ -107,10 +107,10 @@
                 <input type="checkbox" name="services[]" value="Transmission Service">
 
             </div>
+    
+            <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
 
-            <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2">
-
-                <img src='/assets/wheel-service-webp' alt="Wheel Alignment Service" class="w-full h-auto rounded mb-4">
+                <img src='../../assets/wheel-alignment.webp' alt="Wheel Alignment Service" class="w-full h-auto rounded mb-4">
 
                 <h2 class="text-gray-800 text-xl font-semibold mb-2">Wheel Alignment</h2>
 
@@ -119,10 +119,10 @@
                 <input type="checkbox" name="services[]" value="Wheel Alignment">
 
             </div>
+  
+            <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
 
-            <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2">
-
-                <img src='' class="w-full h-auto rounded mb-4">
+                <img src='../../assets/detailing-service.webp' class="w-full h-auto rounded mb-4">
 
                 <h2 class="text-gray-800 text-xl font-semibold mb-2">Detailing Service</h2>
 
@@ -131,10 +131,11 @@
                 <input type="checkbox" name="services[]" value="Detailing Service">
 
             </div>
+    
 
-            <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2">
+            <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
 
-                <img src='' class="w-full h-auto rounded mb-4">
+                <img src='../../assets/car-inspection.webp' class="w-full h-auto rounded mb-4">
 
                 <h2 class="text-gray-800 text-xl font-semibold mb-2">Full Vehicle Inspection</h2>
 
@@ -143,10 +144,10 @@
                 <input type="checkbox" name="services[]" value="Full Vehicle Inspection">
 
             </div>
+  
+            <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
 
-            <div class="service-card bg-white border border-gray-300 rounded-lg shadow-lg m-4 p-6 w-full sm:w-1/2">
-
-                <img src='' alt="Roadside Assistance" class="w-full h-auto rounded mb-4">
+                <img src='../../assets/road-side-assistance.webp' alt="Roadside Assistance" class="w-full h-auto rounded mb-4">
 
                 <h2 class="text-gray-800 text-xl font-semibold mb-2">Roadside Assistance</h2>
 
@@ -155,7 +156,7 @@
                 <input type="checkbox" name="services[]" value="Roadside Assistance">
 
             </div>
-
+    
             <button type="submit" class="relative flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-indigo-600 border border-transparent rounded-md group hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
 
                 Register
@@ -163,7 +164,7 @@
             </button>
 
         </form>
-
+  
         <footer class="bg-gray-800 text-white text-center p-4 fixed bottom-0 w-full">
 
             <p>&copy; 2024 Your Car Service Station</p>
@@ -173,3 +174,4 @@
     </body>
 
 </template>
+  
